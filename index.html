@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" user-scalable="no">
+    <title>Jogo do Humor</title>
+    <link rel="stylesheet" href="./style/index.css" type="text/css">
+</head>
+<body id="body">
+    <div id="models">
+        <div class="slider-item">
+            <div class="item-left">
+                <h1 class="message"></h1>
+                <button class="button" onclick="play()"></button>
+            </div>
+            <div class="item-right">
+                <img src="" alt="Imagem do Hulk">
+            </div>
+        </div>
+
+        <div class="game-item">
+            <div class="item-left">
+                <h1 class="message"></h1>
+                <button class="button-game"></button>
+            </div>
+            <div class="item-right">
+                <img src="" alt="Imagem do Hulk">
+            </div>
+        </div>
+       
+        <div class="pointer-item"></div>
+    </div>
+
+    <header id="header">
+        <div id="header-item" onclick="inicio()">
+            <img src="./assets/icons/icon.png" alt="Ícone mão do Hulk.">
+            <h1>Jogo do Humor</h1>
+        </div>
+    </header>
+    
+    <main id="conteudo">
+        <div id="pointers"></div>
+        <div id="slider-width"></div>
+        <div id="game-width"></div>
+    </main>
+
+    <script src="./js/arrays.js"></script>
+    <script src="./js/index.js"></script>
+</body>
+</html>
